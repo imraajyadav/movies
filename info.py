@@ -15,18 +15,18 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26565714'))
 API_HASH = environ.get('API_HASH', '9fa8a167670176b8007962ea979fe8e5')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7738589368:AAHoYnYNofh6hJBfmwn2s1Oj3LIrW97bkGM')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7947232315:AAG9C1pGXeZDShvuCEm03VBhNtVSSdRVAb0')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5011399269').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Imraajyadav") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002426870407'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+TY25j6hivtkxMzQ1')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+QXqC_9YqeyowY2M9')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002394730698').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rajyadav:rajyadav@rajyadav.leznq.mongodb.net/?retryWrites=true&w=majority&appName=Rajyadav")
-DATABASE_NAME = environ.get('DATABASE_NAME', "unknownworld")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Rajyadav")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
